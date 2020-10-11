@@ -13,19 +13,20 @@
         padding: 5px;
         border-radius: 10px;
       }
-      p span {
-        color: white;
+      input:optional {
+        border: 1px solid wheat;
       }
-      p + span {
-        text-decoration: underline;
+      input:required {
+        border: 1px solid tomato;
       }
     </style>
   </head>
   <body>
     <div>
-      <p>asd <span>asggdf</span>twrgasd</p>
-      <address>hi</address>
-      <span>HELLO</span>
+      <form>
+        <input type="text" placeholder="username" />
+        <input type="password" required placeholder="password" />
+      </form>
     </div>
   </body>
 </html>
