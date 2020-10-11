@@ -19,7 +19,7 @@
       input:required {
         border-color: tomato;
       }
-      input[type="password"] {
+      input[placeholder~="name"] {
         background-color: thistle;
       }
     </style>
@@ -27,7 +27,8 @@
   <body>
     <div>
       <form>
-        <input type="text" placeholder="username" />
+        <input type="text" placeholder="first name" />
+        <input type="text" placeholder="last name" />
         <input type="password" required placeholder="password" />
       </form>
     </div>
