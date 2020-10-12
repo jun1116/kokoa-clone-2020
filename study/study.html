@@ -3,17 +3,26 @@
   <head>
     <link href="styles.css" , rel="stylesheed" />
     <style>
+      :root{
+        --main-color:#00c1fc;
+        --default-border: 1px solid var(----main-color);
+      }
       p::selection{
         color:white;
-        background-color: yellowgreen;
+        background-color: var(--main-color);
       }
       p::first-letter{
-        color:rgba(216, 37, 37, 0.623);
+        color:var(--main-color);
         font-size:250%;
+      }
+      a{
+        color: var(--main-color);
+        border: var(--default-border);
       }
     </style>
   </head>
   <body>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium perspiciatis debitis possimus deserunt quos, praesentium dignissimos veniam perferendis dolor. Dignissimos doloremque quam eligendi rerum voluptates corporis impedit nesciunt culpa ipsam?</p>
+    <a href='#'>Website</a>
   </body>
 </html>
