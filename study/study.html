@@ -9,37 +9,18 @@
         align-items: center;
         justify-content: center;
       }
-      @keyframes coinFlip {
-        0%{
-          transform : rotateY(0);
-        }
-        25%{
-          transform: scale(2);
-          border-radius: 0px;
-        }
-        50%{
-          transform : rotateY(180deg) translateY(-100px);
-          border-color: tomato;
-          opacity: 0;
-        }
-        75%{
-          transform: scale(1);
-          border-radius: 50%;
-        }
-        100%{
-          transform : rotateY(0) 
-        }
+      div{
+        background-color: teal;
+        height: 200px;
+        width:200px;
       }
-      img{
-        border:5px solid black ;
-        width : 250px;
-        border-radius: 50%;
-        animation: coinFlip 2s ease-in-out infinite;
+      @media screen and (max-width: 400px){
+        div{
+          background-color: tomato;
+        }
       }
     </style>
   </head>
   <body>
-    <img src='logo.JPG'/>
-    <span>hahahsdhgajsdfas</span>
-  </body>
+    <div></div>  </body>
 </html>
