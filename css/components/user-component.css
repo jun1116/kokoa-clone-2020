@@ -1,5 +1,6 @@
 .user-component {
   display: flex;
+  justify-content: space-between;
 }
 .user-component,
 .user-component__column:first-child {
@@ -29,4 +30,27 @@
   /* 화면별 변화를 위해 xl로 분리 */
   width: 70px;
   height: 70px;
+}
+
+.user-component__avatar--sm {
+  width: 55px;
+  height: 55px;
+  border-radius: 20px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 10;
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.4);
 }
