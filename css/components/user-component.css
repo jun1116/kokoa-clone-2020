@@ -24,3 +24,9 @@
   font-size: 15px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.user-component__avatar--xl {
+  /* 화면별 변화를 위해 xl로 분리 */
+  width: 70px;
+  height: 70px;
+}
