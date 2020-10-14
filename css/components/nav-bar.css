@@ -5,7 +5,7 @@
   box-sizing: border-box;
   background-color: #f9f9fa;
   padding: 20px 50px;
-  border-top: 1px solid rgba(0, 0, 0, 0.35);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .nav__list {
@@ -31,4 +31,10 @@
   position: absolute;
   left: 20px;
   bottom: 18px;
+}
+.nav__notification__little {
+  width: 7px;
+  height: 7px;
+  left: 30px;
+  bottom: 24px;
 }
