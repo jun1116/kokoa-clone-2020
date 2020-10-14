@@ -33,8 +33,11 @@
   bottom: 18px;
 }
 .nav__notification__little {
+  background-color: tomato;
   width: 7px;
   height: 7px;
-  left: 30px;
-  bottom: 24px;
+  border-radius: 50%;
+  position: absolute;
+  left: 29px;
+  bottom: 25px;
 }
