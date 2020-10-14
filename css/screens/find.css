@@ -35,3 +35,55 @@
   font-size: 18px;
   color: rgba(0, 0, 0, 0.45);
 }
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.open-chat__header span {
+  opacity: 0.6;
+}
+
+.open-post {
+  display: flex;
+}
+.open-post__title {
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.open-post__members {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.open-post__member-count {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.open-post__members > .divider {
+  /* 오픈포스트멤버 안에있는 디바이더클래스에만 적용됨*/
+  width: 2px;
+  height: 15px;
+  margin: 0px 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.open-post__member-status {
+  color: #f897d1;
+}
