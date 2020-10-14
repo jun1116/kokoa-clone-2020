@@ -3,8 +3,10 @@
   text-align: center;
   background-color: #fafafa;
   padding: 15px 0px;
+  font-size: 17px;
 }
 
 #friends-display-link i {
+  padding: 0px 13px;
   color: rgba(0, 0, 0, 0.3);
 }
