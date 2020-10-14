@@ -50,6 +50,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.open-post:last-child {
+  /*마지막포스트는 밑에 divider 안넣기*/
+  border-bottom: none;
 }
 .open-post__title {
   font-weight: 100;
