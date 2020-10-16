@@ -10,12 +10,22 @@
   font-size: 26px;
   font-weight: 600;
 }
-
+.alt-header__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 33%;
+}
 .alt-header__column:first-child {
-  margin-right: auto;
+  display: flex;
+
+  justify-content: flex-start;
 }
 .alt-header__column:last-child {
-  margin-left: auto;
+  display: flex;
+
+  justify-content: flex-end;
 }
 /* 헤더의 아이콘 간격 만드는법 __1 
 .alt-header__column i {
