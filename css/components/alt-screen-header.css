@@ -18,13 +18,9 @@
   width: 33%;
 }
 .alt-header__column:first-child {
-  display: flex;
-
   justify-content: flex-start;
 }
 .alt-header__column:last-child {
-  display: flex;
-
   justify-content: flex-end;
 }
 /* 헤더의 아이콘 간격 만드는법 __1 
