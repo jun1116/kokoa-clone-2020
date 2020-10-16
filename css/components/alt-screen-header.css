@@ -17,6 +17,11 @@
 .alt-header__column:last-child {
   margin-left: auto;
 }
+/* 헤더의 아이콘 간격 만드는법 __1 
 .alt-header__column i {
+  margin-left: 20px;
+}*/
+/* 헤더의 아이콘 간격 만드는법 __2 */
+.alt-header__column span:last-child {
   margin-left: 20px;
 }
