@@ -112,10 +112,12 @@
   box-sizing: border-box;
 }
 .reply input {
-  height: 30px;
+  padding: 10px;
   width: 100%;
   border: var(--main-border);
   border-radius: 15px;
+  font-size: 17px;
+  font-weight: 550;
 }
 .reply .reply__column:first-child {
   width: 10%;
@@ -129,10 +131,26 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: 0;
-  top: 10px;
+  right: -15px;
+  top: 7px;
 }
 
 .reply__column:last-child > i {
-  right: 40px;
+  top: 15px;
+  right: 25px;
+}
+.reply__column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}
+.reply__column > i {
+  opacity: 0.7;
 }
