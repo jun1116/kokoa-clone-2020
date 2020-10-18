@@ -32,6 +32,16 @@
   display: none;
 }
 
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 #splash-screen {
   /* 색 지정 */
   background-color: var(--yellow);
@@ -45,4 +55,7 @@
   align-items: center;
   justify-content: center;
   font-size: 100px;
+  /* 애니매이션 */
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 1.7s;
 }
