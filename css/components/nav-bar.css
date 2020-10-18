@@ -18,10 +18,25 @@
   color: #2e363e;
 }
 
+/*notification 의 애니매이션*/
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-7px) rotateY(360deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   position: absolute;
   left: 20px;
   bottom: 18px;
+  animation: notificationAnimation 1s ease-in-out infinite;
 }
 .nav__notification__little {
   background-color: tomato;
