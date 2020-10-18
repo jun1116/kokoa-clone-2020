@@ -100,3 +100,24 @@
 .open-post__heart-count span {
   margin-left: 4px;
 }
+
+/* 심장박동 애니매이션 */
+@keyframes heartBeat {
+  0% {
+    color: tomato;
+    transform: none;
+  }
+  50% {
+    color: white;
+    transform: scale(2);
+  }
+  100% {
+    color: tomato;
+    transform: none;
+  }
+}
+/* 사진에 마우스만 올려도 바로 진행될 수 있도록 구성 */
+.open-post__photo:hover .open-post__heart-count i {
+  will-change: transform;
+  animation: heartBeat linear 1s infinite;
+}
