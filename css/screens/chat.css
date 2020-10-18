@@ -198,7 +198,8 @@
   opacity: 0;
   visibility: hidden;
 }
-.reply:focus-within input {
+/* .reply:focus-within input {  이렇게 작성해도 바로 밑에 있는 input:focus와 같음*/
+.reply input:focus {
   width: 92vw;
   transform: translateX(-13%) translateY(-80px);
 }
