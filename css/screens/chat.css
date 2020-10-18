@@ -122,10 +122,11 @@
   margin-left: 10px;
 }
 
+/* 시간이랑 말풍선 위치 바꾸는 1번 방법
 .message-row--own .message__time {
-  /* 시간이랑 말풍선 위치 바꾸는 1번 방법
-  order: 0;*/
+  order: 0;
 }
+*/
 
 /* 시간이랑 말풍선 위치 바꾸는 2번 방법*/
 .message-row--own .message__info {
