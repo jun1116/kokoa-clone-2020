@@ -31,3 +31,18 @@
 .fa-chevron-up:hover {
   display: none;
 }
+
+#splash-screen {
+  /* 색 지정 */
+  background-color: var(--yellow);
+  /* 위치-> 맨앞, 맨위 */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  /*아이콘 가운데로 , 사이즈크게*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
